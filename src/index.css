@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.manrope{
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+  font-family: 'Manrope', sans-serif;
+}
+
+.roboto{
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+  font-family: 'Roboto', sans-serif;
+}
+
+.sans{
+  @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Roboto:ital,wght@1,900&display=swap');
+   font-family: 'Inclusive Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+
+#fonts-box {
+  box-shadow:
+    4px 4px 4px rgba(164, 69, 237, 0.2),
+    -4px -4px 4px rgba(164, 69, 237, 0.2),
+    4px -4px 4px rgba(164, 69, 237, 0.2),
+    -4px 4px 4px rgba(164, 69, 237, 0.2),
+    8px 8px 8px rgba(164, 69, 237, 0.15),
+    -8px -8px 8px rgba(164, 69, 237, 0.15),
+    8px -8px 8px rgba(164, 69, 237, 0.15),
+    -8px 8px 8px rgba(164, 69, 237, 0.15),
+    12px 12px 12px rgba(164, 69, 237, 0.1),
+    -12px -12px 12px rgba(164, 69, 237, 0.1),
+    12px -12px 12px rgba(164, 69, 237, 0.1),
+    -12px 12px 12px rgba(164, 69, 237, 0.1);
+  margin-right: 2.10rem;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #1F1F1F;
+}
+
+
+
+
